@@ -268,5 +268,101 @@ elements = {
         'symbol': 'Rh',
         'number': 45,
         'mass': 102.905502
+    },
+    'Pd': {
+        'name': 'Palladium',
+        'symbol': 'Pd',
+        'number': 46,
+        'mass': 106.421
+    },
+    'Ag': {
+        'name': 'Silver',
+        'symbol': 'Ag',
+        'number': 47,
+        'mass': 107.86822
+    },
+    'Cd': {
+        'name': 'Cadmium',
+        'symbol': 'Cd',
+        'number': 48,
+        'mass': 112.4144
+    },
+    'In': {
+        'name': 'Indium',
+        'symbol': 'In',
+        'number': 49,
+        'mass': 114.8181
+    },
+    'Sn': {
+        'name': 'Tin',
+        'symbol': 'Sn',
+        'number': 50,
+        'mass': 118.7107
+    },
+    'Sb': {
+        'name': 'Antimony',
+        'symbol': 'Sb',
+        'number': 51,
+        'mass': 121.7601
+    },
+    'Te': {
+        'name': 'Tellurium',
+        'symbol': 'Te',
+        'number': 52,
+        'mass': 127.603
+    },
+    'I': {
+        'name': 'Iodine',
+        'symbol': 'I',
+        'number': 53,
+        'mass': 126.904473
+    },
+    'Xe': {
+        'name': 'Xenon',
+        'symbol': 'Xe',
+        'number': 54,
+        'mass': 131.2936
+    },
+    'Cs': {
+        'name': 'Caesium',
+        'symbol': 'Cs',
+        'number': 55,
+        'mass': 132.905451966
+    },
+    'Ba': {
+        'name': 'Barium',
+        'symbol': 'Ba',
+        'number': 56,
+        'mass': 137.3277
+    },
+    'La': {
+        'name': 'Lanthanum',
+        'symbol': 'La',
+        'number': 57,
+        'mass': 138.90547
+    },
+    'Ce': {
+        'name': 'Cerium',
+        'symbol': 'Ce',
+        'number': 58,
+        'mass': 140.116
+    },
+    'Pr': {
+        'name': 'Praseodymium',
+        'symbol': 'Pr',
+        'number': 59,
+        'mass': 140.907662
+    },
+    'Nd': {
+        'name': 'Neodymium',
+        'symbol': 'Nd',
+        'number': 60,
+        'mass': 144.242
+    },
+    'Pm': {
+        'name': 'Promethium',
+        'symbol': 'Pm',
+        'number': 61,
+        'mass': 145
     }
 };
