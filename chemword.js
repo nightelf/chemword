@@ -364,5 +364,347 @@ elements = {
         'symbol': 'Pm',
         'number': 61,
         'mass': 145
+    },
+    'Sm': {
+        'name': 'Samarium',
+        'symbol': 'Sm',
+        'number': 62,
+        'mass': 150.362
+    },
+    'Eu': {
+        'name': 'Europium',
+        'symbol': 'Eu',
+        'number': 63,
+        'mass': 151.964
+    },
+    'Gd': {
+        'name': 'Gadolinium',
+        'symbol': 'Gd',
+        'number': 64,
+        'mass': 157.253
+    },
+    'Tb': {
+        'name': 'Terbium',
+        'symbol': 'Tb',
+        'number': 65,
+        'mass': 158.92535
+    },
+    'Dy': {
+        'name': 'Dysprosium',
+        'symbol': 'Dy',
+        'number': 66,
+        'mass': 162.5001
+    },
+    'Ho': {
+        'name': 'Holmium',
+        'symbol': 'Ho',
+        'number': 67,
+        'mass': 164.930332
+    },
+    'Er': {
+        'name': 'Erbium',
+        'symbol': 'Er',
+        'number': 68,
+        'mass': 167.259
+    },
+    'Tm': {
+        'name': 'Thulium',
+        'symbol': 'Tm',
+        'number': 69,
+        'mass': 168.934222
+    },
+    'Yb': {
+        'name': 'Ytterbium',
+        'symbol': 'Yb',
+        'number': 70,
+        'mass': 173.0545
+    },
+    'Lu': {
+        'name': 'Lutetium',
+        'symbol': 'Lu',
+        'number': 71,
+        'mass': 174.96684
+    },
+    'Hf': {
+        'name': 'Hafnium',
+        'symbol': 'Hf',
+        'number': 72,
+        'mass': 178.492
+    },
+    'Ta': {
+        'name': 'Tantalum',
+        'symbol': 'Ta',
+        'number': 73,
+        'mass': 180.947882
+    },
+    'W': {
+        'name': 'Tungsten',
+        'symbol': 'W',
+        'number': 74,
+        'mass': 183.841
+    },
+    'Re': {
+        'name': 'Rhenium',
+        'symbol': 'Re',
+        'number': 75,
+        'mass': 186.2071
+    },
+    'Os': {
+        'name': 'Osmium',
+        'symbol': 'Os',
+        'number': 76,
+        'mass': 190.233
+    },
+    'Ir': {
+        'name': 'Iridium',
+        'symbol': 'Ir',
+        'number': 77,
+        'mass': 192.2173
+    },
+    'Pt': {
+        'name': 'Platinum',
+        'symbol': 'Pt',
+        'number': 78,
+        'mass': 195.0849
+    },
+    'Au': {
+        'name': 'Gold',
+        'symbol': 'Au',
+        'number': 79,
+        'mass': 196.9665694
+    },
+    'Hg': {
+        'name': 'Mercury',
+        'symbol': 'Hg',
+        'number': 80,
+        'mass': 200.5923
+    },
+    'Tl': {
+        'name': 'Thallium',
+        'symbol': 'Tl',
+        'number': 81,
+        'mass': 204.381
+    },
+    'Pb': {
+        'name': 'Lead',
+        'symbol': 'Pb',
+        'number': 82,
+        'mass': 207.21
+    },
+    'Bi': {
+        'name': 'Bismuth',
+        'symbol': 'Bi',
+        'number': 83,
+        'mass': 208.980401
+    },
+    'Po': {
+        'name': 'Polonium',
+        'symbol': 'Po',
+        'number': 84,
+        'mass': 209
+    },
+    'At': {
+        'name': 'Astatine',
+        'symbol': 'At',
+        'number': 85,
+        'mass': 210
+    },
+    'Rn': {
+        'name': 'Radon',
+        'symbol': 'Rn',
+        'number': 86,
+        'mass': 222
+    },
+    'Fr': {
+        'name': 'Francium',
+        'symbol': 'Fr',
+        'number': 87,
+        'mass': 223
+    },
+    'Ra': {
+        'name': 'Radium',
+        'symbol': 'Ra',
+        'number': 88,
+        'mass': 226
+    },
+    'Ac': {
+        'name': 'Actinium',
+        'symbol': 'Ac',
+        'number': 89,
+        'mass': 227
+    },
+    'Th': {
+        'name': 'Thorium',
+        'symbol': 'Th',
+        'number': 90,
+        'mass': 232.03774
+    },
+    'Pa': {
+        'name': 'Protactinium',
+        'symbol': 'Pa',
+        'number': 91,
+        'mass': 231.03588
+    },
+    'U': {
+        'name': 'Uranium',
+        'symbol': 'U',
+        'number': 92,
+        'mass': 238.028913
+    },
+    'Np': {
+        'name': 'Neptunium',
+        'symbol': 'Np',
+        'number': 93,
+        'mass': 237
+    },
+    'Pu': {
+        'name': 'Plutonium',
+        'symbol': 'Pu',
+        'number': 94,
+        'mass': 244
+    },
+    'Am': {
+        'name': 'Americium',
+        'symbol': 'Am',
+        'number': 95,
+        'mass': 243
+    },
+    'Cm': {
+        'name': 'Curium',
+        'symbol': 'Cm',
+        'number': 96,
+        'mass': 247
+    },
+    'Bk': {
+        'name': 'Berkelium',
+        'symbol': 'Bk',
+        'number': 97,
+        'mass': 247
+    },
+    'Cf': {
+        'name': 'Californium',
+        'symbol': 'Cf',
+        'number': 98,
+        'mass': 251
+    },
+    'Es': {
+        'name': 'Einsteinium',
+        'symbol': 'Es',
+        'number': 99,
+        'mass': 252
+    },
+    'Fm': {
+        'name': 'Fermium',
+        'symbol': 'Fm',
+        'number': 100,
+        'mass': 257
+    },
+    'Md': {
+        'name': 'Mendelevium',
+        'symbol': 'Md',
+        'number': 101,
+        'mass': 258
+    },
+    'No': {
+        'name': 'Nobelium',
+        'symbol': 'No',
+        'number': 102,
+        'mass': 259
+    },
+    'Lr': {
+        'name': 'Lawrencium',
+        'symbol': 'Lr',
+        'number': 103,
+        'mass': 266
+    },
+    'Rf': {
+        'name': 'Rutherfordium',
+        'symbol': 'Rf',
+        'number': 104,
+        'mass': 267
+    },
+    'Db': {
+        'name': 'Dubnium',
+        'symbol': 'Db',
+        'number': 105,
+        'mass': 268
+    },
+    'Sg': {
+        'name': 'Seaborgium',
+        'symbol': 'Sg',
+        'number': 106,
+        'mass': 269
+    },
+    'Bh': {
+        'name': 'Bohrium',
+        'symbol': 'Bh',
+        'number': 107,
+        'mass': 270
+    },
+    'Hs': {
+        'name': 'Hassium',
+        'symbol': 'Hs',
+        'number': 108,
+        'mass': 269
+    },
+    'Mt': {
+        'name': 'Meitnerium',
+        'symbol': 'Mt',
+        'number': 109,
+        'mass': 278
+    },
+    'Ds': {
+        'name': 'Darmstadtium',
+        'symbol': 'Ds',
+        'number': 110,
+        'mass': 281
+    },
+    'Rg': {
+        'name': 'Roentgenium',
+        'symbol': 'Rg',
+        'number': 111,
+        'mass': 281
+    },
+    'Cn': {
+        'name': 'Copernicium',
+        'symbol': 'Cn',
+        'number': 112,
+        'mass': 285
+    },
+    'Uut': {
+        'name': 'Ununtrium',
+        'symbol': 'Uut',
+        'number': 113,
+        'mass': 286
+    },
+    'Fl': {
+        'name': 'Flerovium',
+        'symbol': 'Fl',
+        'number': 114,
+        'mass': 289
+    },
+    'Uup': {
+        'name': 'Ununpentium',
+        'symbol': 'Uup',
+        'number': 115,
+        'mass': 289
+    },
+    'Lv': {
+        'name': 'Livermorium',
+        'symbol': 'Lv',
+        'number': 116,
+        'mass': 293
+    },
+    'Uus': {
+        'name': 'Ununseptium',
+        'symbol': 'Uus',
+        'number': 117,
+        'mass': 294
+    },
+    'Uuo': {
+        'name': 'Ununoctium',
+        'symbol': 'Uuo',
+        'number': 118,
+        'mass': 294
     }
 };
