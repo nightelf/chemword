@@ -1,0 +1,1 @@
+chemglyph = angular.module('chemglyph', ['elementInfo']);
