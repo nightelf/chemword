@@ -22,12 +22,13 @@ var matchFinder = function(word) {
 	if (!word) { return []; };
 	word = word.toLowerCase();
 	var matches = [new chemMatch()],
-		slice, clone
+		slice, clone,
+		notLetter = new RegExp('^[^a-z]', 'i')
 		finals = [];
 	while (matches.length > 0) {
 		var match = matches.pop();
 		if (match.length < word.length) {
-			for (var i = 1; i < 4; i++) {
+			for (var i = 1; i < 4 && match.length + i <= word.length; i++) {
 				if (match.length + i > word.length) {
 					break;
 				}
@@ -36,6 +37,11 @@ var matchFinder = function(word) {
 					clone = match.clone();
 					clone.push(elements[slice].symbol);
 					matches.push(clone);
+				} else if (notLetter.test(slice)) {
+					clone = match.clone();
+					clone.push(slice);
+					matches.push(clone);
+					break;
 				}
 			}
 		} else {
