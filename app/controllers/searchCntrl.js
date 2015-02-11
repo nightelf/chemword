@@ -1,4 +1,4 @@
-elementInfo.controller('searchCntrl', ['$scope', 'matchFinder', 'elementInfo', function($scope, matchFinder, elementInfo) {
+elementInfo.controller('searchCntrl', ['$scope', 'matchFinder', function($scope, matchFinder) {
 	$scope.results = [];
 	$scope.$watch('search', function(newValue, oldValue) {
 		
