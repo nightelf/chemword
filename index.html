@@ -3,17 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>title</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular.js"></script>
+
   </head>
   <body ng-app="chemglyph">
     <!-- page content -->
-	<div ng-controller="searchCntrl">
-		<input type="text" ng-model="search" />
-		<div>
-			<div ng-repeat="result in results"> {{result.toString()}} </div>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ChemGlyph</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Suggestions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	
+	<div id="content" class="container" role="main">
+		<div ng-controller="searchCntrl">
+			<div class="form-group">
+				<input class="form-control" type="text" ng-model="search" placeholder="Search..." />
+			</div>
+			<div class="panel panel-default" ng-show="results.length">
+			  <!-- Default panel contents -->
+			  <div class="panel-heading">Results</div>
+			  <!-- List group -->
+			  <ul class="list-group">
+				<li class="list-group-item" ng-repeat="result in results">{{result.toString()}}</li>
+			  </ul>
+			</div>
 		</div>
 	</div>
+	
 	<script src="app/services/app.services.js"></script>
 	<script src="app/services/elementInfo.js"></script>
 	<script src="app/services/matchFinder.js"></script>
