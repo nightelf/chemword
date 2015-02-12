@@ -1,0 +1,13 @@
+<div ng-controller="searchCntrl">
+	<div class="form-group">
+		<input class="form-control" type="text" ng-model="search" placeholder="Search..." />
+	</div>
+	<div class="panel panel-default" ng-show="results.length">
+	  <!-- Default panel contents -->
+	  <div class="panel-heading">Results</div>
+	  <!-- List group -->
+	  <ul class="list-group">
+		<li class="list-group-item" ng-repeat="result in results">{{result.toString()}}</li>
+	  </ul>
+	</div>
+</div>
