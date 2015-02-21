@@ -1,3 +1,5 @@
 # IntelliJ / PyCharm
 .idea/
 
+node_modules/
+

@@ -1,1 +1,0 @@
-elementInfo = angular.module('elementInfo', []);

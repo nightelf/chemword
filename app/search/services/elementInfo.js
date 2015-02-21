@@ -1,4 +1,5 @@
-elementInfo.value('elementInfo', {
+angular.module('chemglyph.search')
+	.value('elementInfo', {
 		'h': {
 			'name': 'Hydrogen',
 			'symbol': 'H',
