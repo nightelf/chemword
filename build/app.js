@@ -2,19 +2,26 @@ angular.module('chemglyph', ['ngRoute', 'chemglyph.search', 'chemglyph.relations
 	.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 
 		$routeProvider
-			.when('/', {
+			.when('/search', {
 				templateUrl: 'static/partials/search/search.html',
 				controller: 'searchCntrl'
-			}).when('/contact', {
-				templateUrl: 'static/partials/feedback/feedback.html',
+			}).when('/about', {
+				templateUrl: 'static/partials/relations/about.html',
+				controller: 'AboutController'
+			}).when('/feedback', {
+				templateUrl: 'static/partials/relations/feedback.html',
 				controller: 'FeedbackController'
 			})
-			.otherwise({redirectTo:'/'});
+			.otherwise({redirectTo:'/search'});
 			
 		$locationProvider.html5Mode(true);
 	}]);
 angular.module('chemglyph.common', []);
 angular.module('chemglyph.relations', []);
+angular.module('chemglyph.relations')
+	.controller('AboutController', ['$scope', function($scope) {
+		
+	}]);
 angular.module('chemglyph.relations')
 	.controller('FeedbackController', ['$scope', function($scope) {
 		
