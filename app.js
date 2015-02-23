@@ -7,7 +7,7 @@ app.engine('html', require('ejs').renderFile);
 
 // define routes
 app.use(express.static(__dirname + '/build'));
-app.get('/', function (req, res) {
+app.get('/:angjsroute(search|about|feedback)?', function (req, res) {
 	res.render('index.html')
 })
 app.get('/static/:type/:module/:file', function (req, res) {
