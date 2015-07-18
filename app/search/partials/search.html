@@ -1,13 +1,27 @@
-<div>
-	<div class="form-group">
-		<input class="form-control" type="text" ng-model="search" placeholder="Search..." />
-	</div>
-	<div class="panel panel-default" ng-show="results.length">
-	  <!-- Default panel contents -->
-	  <div class="panel-heading">Results</div>
-	  <!-- List group -->
-	  <ul class="list-group">
-		<li class="list-group-item" ng-repeat="result in results">{{result.toString()}}</li>
-	  </ul>
-	</div>
+<h3>
+    <div class="form-group">
+        <input class="form-control" type="text" ng-model="search" placeholder="Search..." />
+    </div>
+    <h6 class="panel panel-default" ng-show="results.length">
+      <!-- Default panel contents -->
+      <div class="panel-heading">Results</div>
+      <!-- List group -->
+      <ul class="list-group">
+        <li class="list-group-item" ng-repeat="result in results">
+
+            <span class="symbolBoxParent-sm" ng-repeat="symbol in result.toArray() track by $index" title="{{ elementInfo[symbol].name }}">
+                <span ng-if="elementInfo[symbol]" class="btn btn-default symbolBox-sm" >
+                    <p class="atomicNumber-sm">{{ elementInfo[symbol].number }}</p>
+                    <p class="atomicSymbol-sm">{{ elementInfo[symbol].symbol }}</p>
+                    <p class="atomicMass-sm">{{ elementInfo[symbol].mass | number:4 }}</p>
+                </span>
+                <span class="btn" ng-if="!elementInfo[symbol]">
+                    <p class="atomicNumber-sm"></p>
+                    <p class="atomicSymbol-sm">{{ symbol }}</p>
+                    <p class="atomicMass-sm"></p>
+                </span>
+            </span>
+        </li>
+      </ul>
+    </div>
 </div>
